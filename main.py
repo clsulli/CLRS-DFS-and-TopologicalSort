@@ -174,11 +174,6 @@ def union(G, parent, rank, set1, set2):
         parent[set2Root] = set1Root
         rank[set1Root] = rank[set1Root] + 1
 
-def kruskal():
-
-
-G1 = createGraph("InputFiles/graphin.txt")
-G1 = G1.getGraph()
 
 
 
